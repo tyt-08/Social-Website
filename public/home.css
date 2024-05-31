@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+html {
+  overflow: hidden;
+}
+
+.landingpage {
+  transition: margin-left 0.5s;
+}
+
+.close_button {
+  transition: background-color 0.5s ease-in-out, border-radius 0.3s;
+}
+
+.close_button:hover {
+  border-radius: 5px;
+}
+
+#close {
+  width: auto;
+}
+
+.preload {
+  transition: none !important;
+  transform: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+}
+
+.body {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container {
+  margin: auto;
+  text-align: justify;
+  background-color: white;
+  column-count: 2;
+  column-rule-style: hidden;
+  column-gap: 20px;
+  width: 60%;
+  margin-left: 25%;
+  transition: margin-left 0.5s;
+}
+
+.w3-button {
+  transition: background-color 0.2s ease-in-out;
+}
