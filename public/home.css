@@ -4,11 +4,11 @@ h1 {
 }
 
 html {
-  overflow: hidden;
+  overflow:scroll;
 }
 
 .landingpage {
-  transition: margin-left 0.5s;
+  transition: margin-left 0.4s;
 }
 
 .close_button {
@@ -17,10 +17,6 @@ html {
 
 .close_button:hover {
   border-radius: 5px;
-}
-
-#close {
-  width: auto;
 }
 
 .preload {
@@ -46,7 +42,7 @@ html {
   column-gap: 20px;
   width: 60%;
   margin-left: 25%;
-  transition: margin-left 0.5s;
+  transition: margin-left 0.4s;
 }
 
 .w3-button {

@@ -33,7 +33,7 @@ function w3_open() {
 function w3_close() {
   console.log("close called");
   body.style.marginLeft = "0%";
-  content.style.marginLeft = "25%";
+  content.style.marginLeft = "20%";
   sidebar.style.display = "none";
   open.style.opacity = 1;
 }
