@@ -22,18 +22,16 @@ window.onload = () => {
 
 //sidebar function definitions
 function w3_open() {
-  console.log("open called");
   body.style.marginLeft = "25%";
-  content.style.marginLeft = "37.5%";
+  content.style.marginLeft = "25%";
   sidebar.style.display = "block";
   sidebar.style.width = "25%";
   open.style.opacity = 0;
 }
 
 function w3_close() {
-  console.log("close called");
   body.style.marginLeft = "0%";
-  content.style.marginLeft = "20%";
+  content.style.marginLeft = "0%";
   sidebar.style.display = "none";
   open.style.opacity = 1;
 }
