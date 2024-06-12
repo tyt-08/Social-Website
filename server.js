@@ -14,6 +14,10 @@ app.get("/history-of-globalisation", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "history.html"));
 })
 
+app.get("/sources", (req, res) => {
+    res.sendFile(path.join(__dirname, "public", "sources.html"));
+})
+
 app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 });

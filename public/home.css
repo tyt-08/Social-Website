@@ -50,6 +50,8 @@ html {
   column-gap: 40px;
   width: 60%;
   margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 10px;
   transition: margin-left 0.4s;
 }
 
