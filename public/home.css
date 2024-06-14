@@ -58,3 +58,10 @@ html {
 .w3-button {
   transition: background-color 0.2s ease-in-out;
 }
+
+.intext-img {
+  display: block;
+  margin: auto;
+  user-select: none;
+  border-radius: 5px;
+}
